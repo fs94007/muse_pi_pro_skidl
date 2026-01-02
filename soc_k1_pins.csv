@@ -1,0 +1,677 @@
+Pin ID,Name,Type,Power Domain,Function
+A1,VSS,G,0V,Digital Core Ground
+A10,VSSQ_DDR,G,0V,DDR Ground
+A11,DQ_B_9,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ9; LPDDR3: DQ8
+A12,DQ_B_12,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ12; LPDDR3: DQ10
+A13,DQ_B_11,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ11; LPDDR3: DQ11
+A14,DQS1_C_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Negative of CHB DQS1; LPDDR3: Negtive of DQS1
+A15,DQS1_C_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Negative of CHA DQS1; LPDDR3: Negtive of DQS0
+A16,DQ_A_12,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ12; LPDDR3: DQM0
+A17,DQ_A_9,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ9; LPDDR3: DQ7
+A18,DQ_A_8,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ8; LPDDR3: DQ5
+A19,DQ_A_15,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ15; LPDDR3: DQ3
+A2,VSSQ_DDR,G,0V,DDR Ground
+A20,VSSQ_DDR,G,0V,DDR Ground
+A21,DQ_A_5,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ5; LPDDR3: DQ21
+A22,DQ_A_7,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ7; LPDDR3: DQ17
+A23,DMI0_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Channel A DM0; LPDDR3: DQ22
+A24,DQ_A_1,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ1; LPDDR3: DQ16
+A25,VSSQ_DDR,G,0V,DDR Ground
+A26,VSS,G,0V,Digital Core Ground
+A3,DQ_B_2,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ2; LPDDR3: DQ28
+A4,DMI0_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Channel B DM0; LPDDR3: DQ25
+A5,VSSQ_DDR,G,0V,DDR Ground
+A6,DQ_B_6,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ6; LPDDR3: DQ24
+A7,DQ_B_4,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ4; LPDDR3: DQ30
+A8,DQ_B_13,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ13; LPDDR3: DQ15
+A9,DQ_B_15,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ15; LPDDR3: DQ12
+AA1,PRI_TCK,I/O,1.8V,JTAG clock
+AA10,AVDD18_HDMI,P,1.8V,HDMI 1.8V power
+AA11,VSS,G,0V,Digital Core ground
+AA12,VSS,G,0V,Digital Core ground
+AA13,VCC1833_GPIO3,P,1.8V/3.3V,GPIO3 IO power
+AA14,VCC1833_MMC1,P,1.8V/3.3V,SD card IO power
+AA15,VCC1833_GPIO2,P,1.8V/3.3V,GPIO2 IO power
+AA16,MMC1_DAT2,I/O,1.8V/3.3V,SD card data 2
+AA17,VSS,G,0V,Digital Core ground
+AA18,VSS,G,0V,Digital Core ground
+AA19,GPIO_32,I/O,1.8V,General Purpose I/O 32
+AA2,PRI_TDO,I/O,1.8V,JTAG output data
+AA20,GPIO_29,I/O,1.8V,General Purpose I/O 29
+AA21,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AA22,GPIO_21,I/O,1.8V,General Purpose I/O 21
+AA23,GPIO_24,I/O,1.8V,General Purpose I/O 24
+AA24,GPIO_23,I/O,1.8V,General Purpose I/O 23
+AA25,GPIO_25,I/O,1.8V,General Purpose I/O 25
+AA26,VSS,G,0V,Digital Core ground
+AA3,VSS,G,0V,Digital Core ground
+AA4,VSS,G,0V,Digital Core ground
+AA5,VSS,G,0V,Digital Core ground
+AA6,VSS,G,0V,Digital Core ground
+AA7,AVSS_HDMI,G,0V,HDMI Ground
+AA8,HDMI_TX2N,AO,1.8V,HDMI data2n
+AA9,AVDD18_HDMI,P,1.8V,HDMI 1.8V power
+AB1,PRI_TDI,I/O,1.8V,JTAG input data
+AB10,VSS,G,0V,Digital Core ground
+AB11,VSS,G,0V,Digital Core ground
+AB12,VSS,G,0V,Digital Core ground
+AB13,GPIO_51,I/O,1.8V/3.3V,General purpose I/O 51
+AB14,MMC1_DAT0,I/O,1.8V/3.3V,SD card data 0
+AB15,GPIO_78,I/O,1.8V/3.3V,General Purpose I/O 78
+AB16,GPIO_77,I/O,1.8V/3.3V,General Purpose I/O 77
+AB17,GPIO_02,I/O,1.8V,General Purpose I/O 02
+AB18,GPIO_03,I/O,1.8V,General Purpose I/O 03
+AB19,VSS,G,0V,Digital Core ground
+AB2,PRI_TMS,I/O,1.8V,JTAG mode selection
+AB20,VSS,G,0V,Digital Core ground
+AB21,GPIO_41,I/O,1.8V,General Purpose I/O 41
+AB22,GPIO_44,I/O,1.8V,General Purpose I/O 44
+AB23,GPIO_19,I/O,1.8V,General Purpose I/O 19
+AB24,VSS,G,0V,Digital Core ground
+AB25,GPIO_20,I/O,1.8V,General Purpose I/O 20
+AB26,GPIO_22,I/O,1.8V,General Purpose I/O 22
+AB3,VSS,G,0V,Digital Core ground
+AB4,HDMI_TXCN,AO,1.8V,HDMI clkn
+AB5,HDMI_TX0N,AO,1.8V,HDMI data0n
+AB6,AVSS_HDMI,G,0V,HDMI Ground
+AB7,HDMI_TX1N,AO,1.8V,HDMI data1n
+AB8,HDMI_TX2P,AO,1.8V,HDMI data2p
+AB9,AVSS_HDMI,G,0V,HDMI Ground
+AC1,GPIO_61,I/O,1.8V,General Purpose I/O 61
+AC10,GPIO_86,I/O,1.8V,General Purpose I/O 86
+AC11,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AC12,GPIO_52,I/O,1.8V/3.3V,General Purpose I/O 52
+AC13,GPIO_47,I/O,1.8V/3.3V,General Purpose I/O 47
+AC14,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AC15,GPIO_79,I/O,1.8V/3.3V,General Purpose I/O 79
+AC16,VSS,G,0V,Digital Core ground
+AC17,GPIO_05,I/O,1.8V,General Purpose I/O 05
+AC18,GPIO_00,I/O,1.8V,General Purpose I/O 00
+AC19,VSS,G,0V,Digital Core ground
+AC2,GPIO_62,I/O,1.8V,General Purpose I/O 62
+AC20,GPIO_31,I/O,1.8V,General Purpose I/O 31
+AC21,GPIO_34,I/O,1.8V,General Purpose I/O 34
+AC22,GPIO_42,I/O,1.8V,General Purpose I/O 42
+AC23,GPIO_43,I/O,1.8V,General Purpose I/O 43
+AC24,GPIO_17,I/O,1.8V,General Purpose I/O 17
+AC25,VSS,G,0V,Digital Core ground
+AC26,GPIO_18,I/O,1.8V,General Purpose I/O 18
+AC3,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AC4,HDMI_TXCP,AO,1.8V,HDMI clkp
+AC5,HDMI_TX0P,AO,1.8V,HDMI data0p
+AC6,AVSS_HDMI,G,0V,HDMI Ground
+AC7,HDMI_TX1P,AO,1.8V,HDMI data1p
+AC8,AVSS_HDMI,G,0V,HDMI Ground
+AC9,AVSS_HDMI,G,0V,HDMI Ground
+AD1,GPIO_59,I/O,1.8V,General Purpose I/O 59
+AD10,PMIC_INT_N,I/O,1.8V,PMIC interrupt
+AD11,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AD12,GPIO_50,I/O,1.8V/3.3V,General Purpose I/O 50
+AD13,GPIO_48,I/O,1.8V/3.3V,General Purpose I/O 48
+AD14,MMC1_CMD,I/O,1.8V/3.3V,SD card command
+AD15,GPIO_76,I/O,1.8V/3.3V,General Purpose I/O 76
+AD16,VSS,G,0V,Digital Core ground
+AD17,GPIO_04,I/O,1.8V,General Purpose I/O 04
+AD18,GPIO_01,I/O,1.8V,General Purpose I/O 01
+AD19,GPIO_30,I/O,1.8V,General Purpose I/O 30
+AD2,GPIO_60,I/O,1.8V,General Purpose I/O 60
+AD20,GPIO_33,I/O,1.8V,General Purpose I/O 33
+AD21,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AD22,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+AD23,GPIO_14,I/O,1.8V,General Purpose I/O 14
+AD24,GPIO_12,I/O,1.8V,General Purpose I/O 12
+AD25,GPIO_16,I/O,1.8V,General Purpose I/O 16
+AD26,GPIO_15,I/O,1.8V,General Purpose I/O 15
+AD3,VSS,G,0V,Digital Core ground
+AD4,VSS,G,0V,Digital Core ground
+AD5,VSS,G,0V,Digital Core ground
+AD6,VSS,G,0V,Digital Core ground
+AD7,VSS,G,0V,Digital Core ground
+AD8,GPIO_87,I/O,1.8V,General Purpose I/O 87
+AD9,GPIO_85,I/O,1.8V,General Purpose I/O 85
+AE1,VSS,G,0V,Digital Core ground
+AE10,DVL0,I/O,1.8V,Hardware dynamic voltage regulation signal0
+AE11,PWR_SCL,I/O,1.8V,PMIC I2C bus clock
+AE12,EXT_32K_IN,I/O,1.8V,32K clock input
+AE13,VSS,G,0V,Digital Core ground
+AE14,MMC1_CLK,I/O,1.8V/3.3V,SD card clock
+AE15,MMC1_DAT3,I/O,1.8V/3.3V,SD card data 3
+AE16,GPIO_75,I/O,1.8V/3.3V,General Purpose I/O 75
+AE17,GPIO_11,I/O,1.8V,General Purpose I/O 11
+AE18,GPIO_07,I/O,1.8V,General Purpose I/O 07
+AE19,GPIO_10,I/O,1.8V,General Purpose I/O 10
+AE2,MPLL_TST_AD,AIO,1.8V,Analog testpin
+AE20,GPIO_37,I/O,1.8V,General Purpose I/O 37
+AE21,GPIO_35,I/O,1.8V,General Purpose I/O 35
+AE22,GPIO_38,I/O,1.8V,General Purpose I/O 38
+AE23,GPIO_46,I/O,1.8V,General Purpose I/O 46
+AE24,VSS,G,0V,Digital Core ground
+AE25,GPIO_13,I/O,1.8V,General Purpose I/O 13
+AE26,VSS,G,0V,Digital Core ground
+AE3,VSS,G,0V,Digital Core ground
+AE4,GPIO_92,I/O,1.8V,General Purpose I/O 92
+AE5,GPIO_90,I/O,1.8V,General Purpose I/O 90
+AE6,GPIO_91,I/O,1.8V,General Purpose I/O 91
+AE7,GPIO_89,I/O,1.8V,General Purpose I/O 89
+AE8,GPIO_84,I/O,1.8V,General Purpose I/O 84
+AE9,GPIO_81,I/O,1.8V,General Purpose I/O 81
+AF1,VSS,G,0V,Digital Core ground
+AF10,VSS,G,0V,Digital Core ground
+AF11,SLEEP_OUT,I/O,1.8V,VCXO enabling
+AF12,PWR_SDA,I/O,1.8V,PMIC I2C bus data/address
+AF13,GPIO_49,I/O,1.8V/3.3V,General Purpose I/O 49
+AF14,MMC1_DAT1,I/O,1.8V/3.3V,SD card data 1
+AF15,VSS,G,0V,Digital Core ground
+AF16,GPIO_80,I/O,1.8V/3.3V,General Purpose I/O 80
+AF17,GPIO_08,I/O,1.8V,General Purpose I/O 08
+AF18,GPIO_06,I/O,1.8V,General Purpose I/O 06
+AF19,GPIO_09,I/O,1.8V,General Purpose I/O 09
+AF2,VSS,G,0V,Digital Core ground
+AF20,VSS,G,0V,Digital Core ground
+AF21,GPIO_40,I/O,1.8V,General Purpose I/O 40
+AF22,GPIO_36,I/O,1.8V,General Purpose I/O 36
+AF23,GPIO_39,I/O,1.8V,General Purpose I/O 39
+AF24,GPIO_45,I/O,1.8V,General Purpose I/O 45
+AF25,VSS,G,0V,Digital Core ground
+AF26,VSS,G,0V,Digital Core ground
+AF3,RESET_IN_N,I/O,1.8V,Reset input
+AF4,JTAG_SEL,I/O,1.8V,Primary JTAG selection
+AF5,VSS,G,0V,Digital Core ground
+AF6,GPIO_88,I/O,1.8V,General Purpose I/O 88
+AF7,GPIO_82,I/O,1.8V,General Purpose I/O 82
+AF8,GPIO_83,I/O,1.8V,General Purpose I/O 83
+AF9,DVL1,I/O,1.8V,Hardware dynamic voltage regulation signal1
+B1,VSS,G,0V,Digital Core Ground
+B10,DMI1_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Channel B DM1; LPDDR3: DQ14
+B11,DQ_B_8,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ12; LPDDR3: DQM1
+B12,DQ_B_10,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ10; LPDDR3: DQ9
+B13,VSSQ_DDR,G,0V,DDR Ground
+B14,DQS1_T_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Positive of CHB DQS1; LPDDR3: Positive of DQS1
+B15,DQS1_T_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Positive of CHA DQS1; LPDDR3: Positive of DQS0
+B16,DQ_A_11,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ11; LPDDR3: DQ4
+B17,DQ_A_10,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ10; LPDDR3: DQ6
+B18,DMI1_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Channel A DM1; LPDDR3: DQ2
+B19,DQ_A_14,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ14; LPDDR3: DQ1
+B2,DQ_B_3,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ3; LPDDR3: DQM3
+B20,DQ_A_13,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ13; LPDDR3: DQ0
+B21,DQ_A_4,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ4; LPDDR3: DQ18
+B22,DQ_A_6,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ6; LPDDR3: DQ23
+B23,VSSQ_DDR,G,0V,DDR Ground
+B24,DQ_A_2,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ2; LPDDR3: DQ19
+B25,DQ_A_3,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ3; LPDDR3: DQM2
+B26,VSS,G,0V,Digital Core Ground
+B3,VSSQ_DDR,G,0V,DDR Ground
+B4,DQ_B_1,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ1; LPDDR3: DQ27
+B5,DQ_B_0,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ0; LPDDR3: DQ31
+B6,DQ_B_7,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ7; LPDDR3: DQ29
+B7,DQ_B_5,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ5; LPDDR3: DQ26
+B8,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+B9,DQ_B_14,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB DQ14; LPDDR3: DQ13
+C1,GPIO_58,I/O,1.8V,General Purpose I/O 58
+C10,CKE0_B,AO,lp3: 1.2V; lp4x: 1.1V,LPDDR4X: clock enabling 0 of CHB; LPDDR3: N/A
+C11,CKE1_B,AO,lp3: 1.2V; lp4x: 1.1V,LPDDR4X: clock enabling 1 of CHB; LPDDR3: N/A
+C12,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+C13,CA_B_5,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB CA5; LPDDR3: CA8
+C14,VSSQ_DDR,G,0V,DDR Ground
+C15,VSSQ_DDR,G,0V,DDR Ground
+C16,CA_A_4,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA4; LPDDR3: CA3
+C17,VSSQ_DDR,G,0V,DDR Ground
+C18,CKE1_A,AO,lp3: 1.2V; lp4x: 1.1V,LPDDR4X: clock enabling 1 of CHA; LPDDR3: clock enabling 1
+C19,CA_A_1,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA1; LPDDR3: CA2
+C2,GPIO_57,I/O,1.8V,General Purpose I/O 57
+C20,CS1_A,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Active-low chip select 1 of CHA; LPDDR3: Active-low chip select 1
+C21,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD/lp3: TBD,LPDDR4X IO power
+C22,DQ_A_0,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA DQ0; LPDDR3: DQ20
+C23,VSS,G,0V,Digital Core Ground
+C24,EMMC_DS,I/O,1.8V,eMMC data strobe
+C25,EMMC_D7,I/O,1.8V,eMMC data7
+C26,EMMC_D2,I/O,1.8V,eMMC data2
+C3,GPIO_56,I/O,1.8V,General Purpose I/O 56
+C4,GPIO_55,I/O,1.8V,General Purpose I/O 55
+C5,GPIO_54,I/O,1.8V,General Purpose I/O 54
+C6,DQS0_T_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Positive of CHB DQS0; LPDDR3: Positive of DQS3
+C7,VSSQ_DDR,G,0V,DDR Ground
+C8,CS1_B,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Active-low chip select 1 of CHB; LPDDR3: N/A
+C9,CA_B_1,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB CA1; LPDDR3: CA5
+D1,GPIO_114,I/O,1.8V,General Purpose I/O 114
+D10,DDR_lp4x_SEL,AIO,1.8V,LPDDR4X: connect to 1.8V; LP234: connect to Ground
+D11,CK_C_B,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: negative LPDDR differential clock of CHB; LPDDR3: negative LPDDR differential clock
+D12,CA_B_2,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB CA2; LPDDR3: CA9
+D13,CA_B_4,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA4; LPDDR3: CA7
+D14,VSSQ_DDR,G,0V,DDR Ground
+D15,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD; lp3: TBD,LPDDR4X IO power
+D16,CA_A_2,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA2
+D17,CK_C_A,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: negative LPDDR differential clock of CHA; LPDDR3: N/A
+D18,CKE0_A,AO,lp3: 1.2V; lp4x: 1.1V,LPDDR4X: clock enabling 0 of CHA; LPDDR3: clock enabling 0
+D19,CA_A_0,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA0; LPDDR3: CA4
+D2,GPIO_113,I/O,1.8V,General Purpose I/O 113
+D20,DQS0_T_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Positive of CHA DQS0; LPDDR3: Positive of DQS2
+D21,DQS0_C_A,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Negative of CHA DQS0; LPDDR3: Negative of DQS2
+D22,VSS,G,0V,Digital Core Ground
+D23,EMMC_D4,I/O,1.8V,eMMC data4
+D24,EMMC_D1,I/O,1.8V,eMMC data1
+D25,VSS,G,0V,Digital Core Ground
+D26,EMMC_D0,I/O,1.8V,eMMC data0
+D3,GPIO_112,I/O,1.8V,General Purpose I/O 112
+D4,GPIO_111,I/O,1.8V,General Purpose I/O 111
+D5,GPIO_53,I/O,1.8V,General Purpose I/O 53
+D6,DQS0_C_B,AIO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Negative of CHB DQS0; LPDDR3: Negtive of DQS3
+D7,VSSQ_DDR,G,0V,DDR Ground
+D8,CA_B_0,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB CA0
+D9,VSSQ_DDR,G,0V,DDR Ground
+E1,GPIO_67,I/O,1.8V,General Purpose I/O 67
+E10,VSSQ_DDR,G,0V,DDR Ground
+E11,CK_T_B,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: positive LPDDR differential clock of CHB; LPDDR3: positive LPDDR differential clock
+E12,CA_B_3,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHB CA3; LPDDR3: CA6
+E13,AVSS18_DDR,G,0V,DDR Ground
+E14,AVDD18_DDR,P,1.8V,LPDDR PHY PLL 1.8V power
+E15,CA_A_5,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA5; LPDDR3: CA1
+E16,CS0_A,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: Active-low chip select 0 of CHA; LPDDR3: Active-low chip select 0
+E17,CK_T_A,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: positive LPDDR differential clock of CHA; LPDDR3: N/A
+E18,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD; lp3: TBD,LPDDR4X IO power
+E19,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD; lp3: TBD,LPDDR4X IO power
+E2,GPIO_65,I/O,1.8V,General Purpose I/O 65
+E20,VSSQ_DDR,G,0V,DDR Ground
+E21,AVSS_EMMC,G,0V,eMMC Ground
+E22,EMMC_D6,I/O,1.8V,eMMC data6
+E23,AVSS_EMMC,G,0V,eMMC Ground
+E24,EMMC_CLK,I/O,1.8V,eMMC Clock
+E25,EMMC_D3,I/O,1.8V,eMMC data3
+E26,EMMC_D5,I/O,1.8V,eMMC data5
+E3,GPIO_64,I/O,1.8V,General Purpose I/O 64
+E4,VSS,G,0V,Digital Core Ground
+E5,GPIO_63,I/O,1.8V,General Purpose I/O 63
+E6,VSS,G,0V,Digital Core Ground
+E7,VSSQ_DDR,G,0V,DDR Ground
+E8,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+E9,DDR_LP23_VREFDQ,P,lp3: 0.6V; lp4: high-z,"DQ VREF for lpddr23 , LP4/4x; Keep the pin NC"
+F1,VSS,G,0V,Digital Core Ground
+F10,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+F11,VSSQ_DDR,G,0V,DDR Ground
+F12,CS0_B,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: clock enabling 1 of CHB; LPDDR3: N/A
+F13,DDR_RESET_N,AO,lp3: 1.2V; lp4x: 1.1V,LPDDR SDRAM reset
+F14,ZQ_DDR_PHY,AIO,lp3: 1.2V; lp4x: 0.6V,DDR ZQ calibration
+F15,CA_A_3,AO,lp3: 1.2V; lp4x: 0.6V,LPDDR4X: CHA CA3; LPDDR3: CA0
+F16,VSSQ_DDR,G,0V,DDR Ground
+F17,DDR_LDO_CAP,RO,0.7~0.9V,External LDO output ball;; Connect to a 100nF capacitor on PCB board
+F18,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD; lp3: TBD,LPDDR4X IO power
+F19,VSSQ_DDR,G,0V,DDR Ground
+F2,VSS,G,0V,Digital Core Ground
+F20,AVSS_EMMC,G,0V,eMMC Ground
+F21,AVSS_EMMC,G,0V,eMMC Ground
+F22,AVSS_EMMC,G,0V,eMMC Ground
+F23,QSPI_DAT2,I/O,1.8V/3.3V,QSPI data2
+F24,QSPI_DAT1,I/O,1.8V/3.3V,QSPI data1
+F25,EMMC_CMD,I/O,1.8V,eMMC command
+F26,QSPI_DAT0,I/O,1.8V/3.3V,QSPI data0
+F3,GPIO_69,I/O,1.8V,General Purpose I/O 69
+F4,GPIO_68,I/O,1.8V,General Purpose I/O 68
+F5,GPIO_66,I/O,1.8V,General Purpose I/O 66
+F6,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+F7,VSS,G,0V,Digital Core Ground
+F8,VSSQ_DDR,G,0V,DDR Ground
+F9,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+G1,MIPI_CSI1_D1N,AI,1.8V,CSI1 DATA1LANEN
+G10,VSSQ_DDR,G,0V,DDR Ground
+G11,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+G12,AVDD11_DDR,P,lp4x: 1.1V; lp4: 1.1V; lp3: 1.2V,LPDDR PHY power supply
+G13,VDDQ_V1P2,P,lp3: 1.2V; lp4x: 0.6V,LPDDR3 IO power
+G14,DDR_LP23_VREFCA,P,lp3: 0.6V; lp4: high-z,"CA VREF for lpddr23, LP4/4x; Keep the pin NC"
+G15,AVDD11_DDR,P,lp4x: 1.1V; lp4: 1.1V; lp3: 1.2V,LPDDR PHY power supply
+G16,AVDD06_DDR,P,lp4x: 0.6V; lp4: TBD; lp3: TBD,LPDDR4X IO power
+G17,VSSQ_DDR,G,0V,DDR Ground
+G18,AVDD18_EFUSE,P,1.8V,ANAGRP
+G19,AVSS_EMMC,G,0V,eMMC Ground
+G2,MIPI_CSI1_D1P,AI,1.8V,CSI1 DATA1LANEP
+G20,AVSS_EMMC,G,0V,eMMC Ground
+G21,AVSS_EMMC,G,0V,eMMC Ground
+G22,QSPI_DAT3,I/O,1.8V/3.3V,QSPI data3
+G23,QSPI_CLK,I/O,1.8V/3.3V,QSPI CLK
+G24,QSPI_CS1,I/O,1.8V/3.3V,QSPI CS
+G25,VSS,G,0V,Digital Core Ground
+G26,VSS,G,0V,Digital Core Ground
+G3,VSS,G,0V,Digital Core Ground
+G4,MIPI_CSI1_D0N,AI,1.8V,CSI1 DATA0LANEN
+G5,MIPI_CSI1_D0P,AI,1.8V,CSI1 DATA0LANEP
+G6,VSS,G,0V,Digital Core Ground
+G7,VSS,G,0V,Digital Core Ground
+G8,VSS,G,0V,Digital Core Ground
+G9,VSS,G,0V,Digital Core Ground
+H1,MIPI_CSI1_D2N,AI,1.8V,CSI1 DATA2LANEN
+H10,VSSU_DDR,G,0V,system DDR Ground
+H11,VSSU_DDR,G,0V,system DDR Ground
+H12,AVDD18_PHY,P,1.8V,Analog 1.8V power
+H13,AVDDU_DDR,P,0.9V,LPDDR PHY PLL logical power
+H14,AVSSU_DDR,G,0V,DDR Ground
+H15,AVDD18_PHY,P,1.8V,Analog 1.8V power
+H16,VSSU_DDR,G,0V,System DDR Ground
+H17,VSSU_DDR,G,0V,System DDR Ground
+H18,VSSU_EMMC,G,0V,eMMC Ground
+H19,AVDD18_EMMC,P,1.8V,eMMC analog power
+H2,MIPI_CSI1_D2P,AI,1.8V,CSI1 DATA2LANEP
+H20,AVDD09_EMMC,P,0.9V,eMMC digtial power
+H21,VCC1833_QSPI,P,1.8V/3.3V,QSPI IO power
+H22,PCIEC_TX0P,AO,1.8V,PCIEC TX0LANEP
+H23,PCIEC_TX0N,AO,1.8V,PCIEC TX0LANEN
+H24,AVSS_PCIEC,G,0V,PCIEC Ground
+H25,PCIEC_RX0P,AI,1.8V,PCIEC RX0LANEP
+H26,PCIEC_RX0N,AI,1.8V,PCIEC RX0LANEN
+H3,VSS,G,0V,Digital Core Ground
+H4,MIPI_CSI1_CLKN,AO,1.8V,CSI1 CKLANEN
+H5,MIPI_CSI1_CLKP,AO,1.8V,CSI1 CKLANEP
+H6,AVSS18_AFEAP,G,0V,DCXO Ground
+H7,XI_PAD,AI,1.8V,DCXO crystal input
+H8,AVSS18_AFEAP,G,0V,DCXO Ground
+H9,VSS,G,0V,Digital Core Ground
+J1,MIPI_CSI3_D0N,AI,1.8V,CSI3 DATA0LANEN
+J10,VCC_M1,P,0.9V,Digital Core power
+J11,AVDDU_PHY,P,0.9V,LPDDR PHY core logical power
+J12,AVDDU_PHY,P,0.9V,LPDDR PHY core logical power
+J13,AVDDU_PHY,P,0.9V,LPDDR PHY core logical power
+J14,AVDDU_PHY,P,0.9V,LPDDR PHY core logical power
+J15,AVDDU_PHY,P,0.9V,LPDDR PHY core logical power
+J16,VSS,G,0V,Digital Core Ground
+J17,VCC_M1,P,0.9V,Digital Core power
+J18,VSSU_EMMC,G,0V,eMMC Ground
+J19,QSPI_VCC_CAP,RO,1.8V,QSPI 1.8V LDO cap
+J2,MIPI_CSI3_D0P,AI,1.8V,CSI3 DATA0LANEP
+J20,AVDD09_EMMC,P,0.9V,eMMC digtial power
+J21,AVSS_PCIEC,G,0V,PCIEC Ground
+J22,PCIEC_REFCLK_P,AIO,1.8V,PCIEC CKLANEP
+J23,PCIEC_REFCLK_N,AIO,1.8V,PCIEC CKLANEN
+J24,AVSS_PCIEC,G,0V,PCIEC Ground
+J25,PCIEC_RX1P,AI,1.8V,PCIEC RX1LANEP
+J26,PCIEC_RX1N,AI,1.8V,PCIEC RX1LANEN
+J3,AVSS_CSI,G,0V,MIPI_CSI Ground
+J4,MIPI_CSI1_D3N,AI,1.8V,CSI1 DATA3LANEN
+J5,MIPI_CSI1_D3P,AI,1.8V,CSI1 DATA3LANEP
+J6,AVSS_CSI,G,0V,MIPI_CSI Ground
+J7,XO_PAD,AO,1.8V,DCXO crystal output
+J8,AVSS18_AFEAP,G,0V,DCXO Ground
+J9,AVSS18_AFEAP,G,0V,DCXO Ground
+K1,MIPI_CSI3_CLKN,AO,1.8V,CSI3 CKLANEN for CSI3 DATALANE0/1 when CSI3 is configured as two 2ch CSI;; CSI3 CKLANEN for CSI3 DATALANE0/1/2/3 when CSI3 is configured as 4ch CSI
+K10,VSS,G,0V,Digital Core Ground
+K11,BG_OUT,AO,1.8V,Bandgap output
+K12,AVDD18_AFEAP,P,1.8V,1.8V power for DCXO
+K13,MPLL_TST_CK,AIO,1.8V,Analog testpin
+K14,AVDD18_PLL,P,1.8,System PLL power supply
+K15,VCC_M1,P,0.9V,Digital Core power
+K16,VSS,G,0V,Digital core Ground
+K17,VCC_M1,P,0.9V,Digital Core power
+K18,VSSU_PCIEC,G,0V,PCIEC Ground
+K19,VSSU_PCIEC,G,0V,PCIEC Ground
+K2,MIPI_CSI3_CLKP,AO,1.8V,CSI3 CKLANEP for CSI3 DATALANE0/1 when CSI3 is configured as two 2ch CSI;; CSI3 CKLANEP for CSI3 DATALANE0/1/2/3 when CSI3 is configured as 4ch CSI
+K20,AVDD09_PCIEC,P,0.9V,PCIEC digital power
+K21,AVSS_PCIEC,G,0V,PCIEC Ground
+K22,PCIEC_TX1P,AO,1.8V,PCIEC TX1LANEP
+K23,PCIEC_TX1N,AO,1.8V,PCIEC TX1LANEN
+K24,AVSS_PCIEC,G,0V,PCIEC Ground
+K25,PCIEB_RX0P,AI,1.8V,PCIEB RX0LANEP
+K26,PCIEB_RX0N,AI,1.8V,PCIEB RX0LANEN
+K3,AVSS_CSI,G,0V,MIPI_CSI Ground
+K4,MIPI_CSI3_D1N,AI,1.8V,CSI3 DATA1LANEN
+K5,MIPI_CSI3_D1P,AI,1.8V,CSI3 DATA1LANEP
+K6,AVDD18_CSI,P,1.8V,MIPI_CSI analog power
+K7,AVDD09_CSI,P,0.9V,MIPI_CSI digtial power
+K8,AVSS_CSI,G,0V,MIPI_CSI Ground
+K9,VCC_M1,P,0.9V,Digital Core power
+L1,MIPI_CSI3_D2N,AI,1.8V,CSI3 DATA2LANEN
+L10,VCC_M1,P,0.9V,Digital Core power
+L11,AVDD09_AFEAP,P,0.9V,0.9V power for DCXO
+L12,VSSU_AFEAP,G,0V,DCXO Ground
+L13,AVSS_PLL,G,0V,Analog Core Ground
+L14,VSSU_PLL,G,0V,System PLL Ground
+L15,VSS,G,0V,Digital core Ground
+L16,VCC_M1,P,0.9V,Digital Core power
+L17,VSSU_PCIEC,G,0V,PCIEC Ground
+L18,VSSU_PCIEC,G,0V,PCIEC Ground
+L19,AVDD18_PCIEC,P,1.8V,PCIEC analog power
+L2,MIPI_CSI3_D2P,AI,1.8V,CSI3 DATA2LANEP
+L20,AVDD09_PCIEB,P,0.9V,PCIEB digital power
+L21,AVDD09_PCIEB,P,0.9V,PCIEB digital power
+L22,PCIEB_TX0P,AO,1.8V,PCIEB TX0LANEP
+L23,PCIEB_TX0N,AO,1.8V,PCIEB TX0LANEN
+L24,AVSS_PCIEB,G,0V,PCIEB Ground
+L25,PCIEB_REFCLK_P,AIO,1.8V,PCIEB CKLANEP
+L26,PCIEB_REFCLK_N,AIO,1.8V,PCIEB CKLANEN
+L3,AVSS_CSI,G,0V,MIPI_CSI Ground
+L4,MIPI_CSI2_CLKN,AO,1.8V,CKLANEN for CSI3 DATALANE2/3 when CSI3 is configured as two 2ch CSI;; Disabled when CSI3 is configured as 4ch CSI
+L5,MIPI_CSI2_CLKP,AO,1.8V,CKLANEP for CSI3 DATALANE2/3 when CSI3 is configured as two 2ch CSI;; Disabled when CSI3 is configured as 4ch CSI
+L6,AVDD18_CSI,P,1.8V,MIPI_CSI analog power
+L7,AVDD09_CSI,P,0.9V,MIPI_CSI digtial power
+L8,AVSS_CSI,G,0V,MIPI_CSI Ground
+L9,AVSS_CSI,G,0V,MIPI_CSI Ground
+M1,MIPI_CSI3_D3N,AI,1.8V,CSI3 DATA3LANEN
+M10,VSS,G,0V,Digital Core Ground
+M11,AVDD09_PLL,P,0.9,System PLL power supply
+M12,VSS,G,0V,Digital Core Ground
+M13,VSS,G,0V,Digital Core Ground
+M14,VSS,G,0V,Digital Core Ground
+M15,VCC_M1,P,0.9V,Digital Core power
+M16,VSS,G,0V,Digital Core Ground
+M17,VSSU_PCIEB,G,0V,PCIEB Ground
+M18,VSSU_PCIEB,G,0V,PCIEB Ground
+M19,AVDD18_PCIEB,P,1.8V,PCIEB analog power
+M2,MIPI_CSI3_D3P,AI,1.8V,CSI3 DATA3LANEP
+M20,AVSS_PCIEB,G,0V,PCIEB Ground
+M21,AVSS_PCIEB,G,0V,PCIEB Ground
+M22,PCIEB_TX1P,AO,1.8V,PCIEB TX1LANEP
+M23,PCIEB_TX1N,AO,1.8V,PCIEB TX1LANEN
+M24,AVSS_PCIEB,G,0V,PCIEB Ground
+M25,PCIEB_RX1P,AI,1.8V,PCIEB RX1LANEP
+M26,PCIEB_RX1N,AI,1.8V,PCIEB RX1LANEN
+M3,VSS,G,0V,Digital Core Ground
+M4,VSS,G,0V,Digital Core Ground
+M5,VSSU_PCIEA,G,0V,PCIEA Ground
+M6,AVDD18_USB,P,1.8V,USB2.0 1.8V power
+M7,AVDD09_USB,P,0.9V,USB2.0 digital power
+M8,VSSU_PCIEA,G,0V,PCIEA Ground
+M9,AVDD33_USB,P,3.3V,USB2.0 3.3V power
+N1,USB2_DN,AIO,3.3V,USB2.0_2 D- differential data line
+N10,VCC_M1,P,0.9V,Digital Core power
+N11,VSS,G,0V,Digital Core Ground
+N12,VCC_M1,P,0.9V,Digital Core power
+N13,VSS,G,0V,Digital Core Ground
+N14,VCC_M1,P,0.9V,Digital Core power
+N15,VSS,G,0V,Digital Core Ground
+N16,VCC_M1,P,0.9V,Digital Core power
+N17,AVSS18_AUD,G,0V,Audio Ground
+N18,AVDD3V3_AUD,P,3.3V,3.3V power for earphone driver
+N19,AVSS18_AUD,G,0V,Audio Ground
+N2,USB2_DP,AIO,3.3V,USB2.0_2 D+ differential data line
+N20,AVSS18_AUD,G,0V,Audio Ground
+N21,NC,P,1.8V,NC
+N22,NC,P,-1.8V,NC
+N23,NC,AO,+/-1.8V,NC
+N24,NC,AO,+/-1.8V,NC
+N25,NC,AO,3.3V,NC
+N26,NC,AO,3.3V,NC
+N3,AVSS_USB,G,0V,USB2.0 Ground
+N4,PCIEA_TXN,AO,1.8V,PCIEA TXLANEN
+N5,PCIEA_TXP,AO,1.8V,PCIEA TXLANEP
+N6,AVDD18_PCIEA,P,1.8V,PCIEA analog power
+N7,AVDD09_PCIEA,P,0.9V,PCIEA digital power
+N8,AVSS_PCIEA,G,0V,PCIEA Ground
+N9,AVDD33_USB,P,3.3V,USB2.0 3.3V power
+P1,PCIEA_RXN,AI,1.8V,PCIEA RXLANEN
+P10,VSS,G,0V,Digital Core Ground
+P11,VCC_M1,P,0.9V,Digital Core power
+P12,VSS,G,0V,Digital Core Ground
+P13,VCC_M1,P,0.9V,Digital Core power
+P14,VSS,G,0V,Digital Core Ground
+P15,VCC_M1,P,0.9V,Digital Core power
+P16,VSS,G,0V,Digital Core Ground
+P17,AUD_GNDSNS,G,0V,Headphone sense_Ground
+P18,AVDD18_AUD,P,1.8V,1.8V power for audio
+P19,AVDD18_AUD,P,1.8V,1.8V power for audio
+P2,PCIEA_RXP,AI,1.8V,PCIEA RXLANEP
+P20,NC,AO,1.8V,NC
+P21,NC,AO,1.8V,NC
+P22,NC,AO,1.8V,NC
+P23,NC,AI,1.8V,NC
+P24,NC,AI,1.8V,NC
+P25,NC,AI,1.8V,NC
+P26,NC,AI,1.8V,NC
+P3,AVSS_USB,G,0V,USB2.0 Ground
+P4,PCIEA_R_EXT,AO,1.8V,PCIEA External calibration resistor
+P5,AVSS_USB,G,0V,USB2.0 Ground
+P6,AVDD18_USB,P,1.8V,USB2.0 1.8V power
+P7,AVDD09_USB,P,0.9V,USB2.0 digital power
+P8,AVDD09_USB,P,0.9V,USB2.0 digital power
+P9,AVDD33_USB,P,3.3V,USB2.0 3.3V power
+R1,PCIEA_REFCLK_N,AIO,1.8V,PCIEA CKLANEN
+R10,VCC_M1,P,0.9V,Digital Core power
+R11,VSS,G,0V,Digital Core Ground
+R12,VCC_M1,P,0.9V,Digital Core power
+R13,VSS,G,0V,Digital Core Ground
+R14,VCC_M1,P,0.9V,Digital Core power
+R15,VSS,G,0V,Digital Core Ground
+R16,VCC_M1,P,0.9V,Digital Core power
+R17,AUD_VSSU,G,0V,Audio Ground
+R18,AUD_VDDU09,P,0.9V,0.9V power for audio
+R19,AUD_REFGND,G,0V,Audio Reference Ground
+R2,PCIEA_REFCLK_P,AIO,1.8V,PCIEA CKLANEP
+R20,NC,AO,1.8V,NC
+R21,AUD_AUREF10,RO,1.8V,Audio reference voltage
+R22,NC,AI,1.8V,NC
+R23,NC,AI,1.8V,NC
+R24,VSS,G,0V,Digital core ground
+R25,NC,AI,1.8V,NC
+R26,NC,AI,1.8V,NC
+R3,VSS,G,0V,Digital core Ground
+R4,USB1_DN,AIO,3.3V,USB2.0_1 D- differential data line
+R5,USB1_DP,AIO,3.3V,USB2.0_1 D+ differential data line
+R6,AVDD18_DSI1,P,1.8V,DSI analog power
+R7,AVSS_USB,G,0V,USB2.0 Ground
+R8,VSS,G,0V,Digital Core Ground
+R9,VSS,G,0V,Digital Core Ground
+T1,MIPI_DSI1_D3N,AO,1.2V,DSI DATA3LANEN
+T10,VSS,G,0V,Digital Core ground
+T11,VCC_M1,P,0.9V,Digital Core power
+T12,VSS,G,0V,Digital Core ground
+T13,VCC_M1,P,0.9V,Digital Core power
+T14,VSS,G,0V,Digital Core ground
+T15,VCC_M1,P,0.9V,Digital Core power
+T16,VSS,G,0V,Digital Core ground
+T17,VCC_M1,P,0.9V,Digital Core power
+T18,VSS,G,0V,Digital Core ground
+T19,VSS,G,0V,Digital Core ground
+T2,MIPI_DSI1_D3P,AO,1.2V,DSI DATA3LANEP
+T20,VSS,G,0V,Digital Core ground
+T21,AVSS18_AUD,G,0V,Audio Ground
+T22,AVSS18_AUD,G,0V,Audio Ground
+T23,NC,AI,1.8V,NC
+T24,VSS,G,0V,Digital Core ground
+T25,NC,AO,3.3V,NC
+T26,VSS,G,0V,Digital core ground
+T3,VSS,G,0V,Digital core ground
+T4,USB0_DN,AIO,3.3V,USB2.0_0 D- differential data line
+T5,USB0_DP,AIO,3.3V,USB2.0_0 D+ differential data line
+T6,VSS,G,0V,Digital core ground
+T7,AVDD09_DSI1,P,0.9V,DSI digital power
+T8,AVDD12_DSI1,P,1.2V,DSI driver power
+T9,VCC_M1,P,0.9V,Digital Core power
+U1,MIPI_DSI1_D2N,AO,1.2V,DSI DATA2LANEN
+U10,VCC_M1,P,0.9V,Digital Core power
+U11,VSS,G,0V,Digital Core ground
+U12,VCC_M1,P,0.9V,Digital Core power
+U13,VSS,G,0V,Digital Core ground
+U14,VCC_M1,P,0.9V,Digital Core power
+U15,VSS,G,0V,Digital Core ground
+U16,VCC_M1,P,0.9V,Digital Core power
+U17,VSS,G,0V,Digital Core ground
+U18,VCC_M1_FB,P,0.9V,Digital Core power FeedBack
+U19,VSS_FB,G,0V,Digital Core ground FeedBack
+U2,MIPI_DSI1_D2P,AO,1.2V,DSI DATA2LANEP
+U20,VSS,G,0V,Digital core ground
+U21,GPIO_123,I/O,1.8V,General Purpose I/O 123
+U22,GPIO_125,I/O,1.8V,General Purpose I/O 125
+U23,NC,AI,1.8V,NC
+U24,NC,AO,3.3V,NC
+U25,GPIO_126,I/O,1.8V,General Purpose I/O 126
+U26,GPIO_127,I/O,1.8V,General Purpose I/O 127
+U3,AVSS_DSI1,G,0V,DSI Ground
+U4,AVSS_DSI1,G,0V,DSI Ground
+U5,AVSS_DSI1,G,0V,DSI Ground
+U6,VCC_M1,P,0.9V,Digital Core power
+U7,AVSS_DSI1,G,0V,DSI Ground
+U8,VCC_M1,P,0.9V,Digital Core power
+U9,VSS,G,0V,Digital Core ground
+V1,MIPI_DSI1_CLKN,AO,1.2V,DSI CKLANEN
+V10,VSS,G,0V,Digital Core ground
+V11,VCC_M1,P,0.9V,Digital Core power
+V12,VSS,G,0V,Digital Core ground
+V13,VCC_M1,P,0.9V,Digital Core power
+V14,VSS,G,0V,Digital Core ground
+V15,VCC_M1,P,0.9V,Digital Core power
+V16,VSS,G,0V,Digital Core ground
+V17,VCC_M1,P,0.9V,Digital Core power
+V18,VSS,G,0V,Digital Core ground
+V19,VSS,G,0V,Digital Core ground
+V2,MIPI_DSI1_CLKP,AO,1.2V,DSI CKLANEP
+V20,VSS,G,0V,Digital Core ground
+V21,GPIO_121,I/O,1.8V,General Purpose I/O 121
+V22,VSS,G,0V,Digital Core ground
+V23,GPIO_124,I/O,1.8V,General Purpose I/O 124
+V24,GPIO_120,I/O,1.8V,General Purpose I/O 120
+V25,VSS,G,0V,Digital Core ground
+V26,GPIO_122,I/O,1.8V,General purpose I/O 122
+V3,AVSS_DSI1,G,0V,DSI Ground
+V4,AVSS_DSI1,G,0V,DSI Ground
+V5,AVSS_DSI1,G,0V,DSI Ground
+V6,AVSS_DSI1,G,0V,DSI Ground
+V7,VCC_M1,P,0.9V,Digital Core power
+V8,VSS,G,0V,Digital Core ground
+V9,VCC_M1,P,0.9V,Digital Core power
+W1,VSS,G,0V,Digital Core ground
+W10,VCC_M1,P,0.9V,Digital Core power
+W11,VSS,G,0V,Digital Core ground
+W12,VCC_M1,P,0.9V,Digital Core power
+W13,GPIO3_VCC_CAP,RO,1.8V,GPIO3 1.8V LDO cap
+W14,VCC_M1,P,0.9V,Digital Core power
+W15,VSS,G,0V,Digital Core ground
+W16,VCC_M1,P,0.9V,Digital Core power
+W17,VSS,G,0V,Digital Core ground
+W18,VCC_M1,P,0.9V,Digital Core power
+W19,VSS,G,0V,Digital Core ground
+W2,VSS,G,0V,Digital Core ground
+W20,VSS,G,0V,Digital Core ground
+W21,GPIO_110,I/O,1.8V,General Purpose I/O 110
+W22,GPIO_117,I/O,1.8V,General Purpose I/O 117
+W23,GPIO_116,I/O,1.8V,General Purpose I/O 116
+W24,VSS,G,0V,Digital Core ground
+W25,GPIO_119,I/O,1.8V,General Purpose I/O 119
+W26,GPIO_118,I/O,1.8V,General Purpose I/O 118
+W3,VSS,G,0V,Digital Core ground
+W4,MIPI_DSI1_D1N,AO,1.2V,DSI DATA1LANEN
+W5,MIPI_DSI1_D1P,AO,1.2V,DSI DATA1LANEP
+W6,VCC_M1,P,0.9V,Digital Core power
+W7,VSS,G,0V,Digital Core ground
+W8,VCC_M1,P,0.9V,Digital Core power
+W9,VSS,G,0V,Digital Core ground
+Y1,PRI_TRST_N,I/O,1.8V,JTAG reset
+Y10,AVDD09_HDMI,P,0.9V,HDMI digtial power
+Y11,VSS,G,0V,Digital Core ground
+Y12,VSS,G,0V,Digital Core ground
+Y13,VSS,G,0V,Digital Core ground
+Y14,MMC1_VCC_CAP,RO,1.8V,SD card 1.8V LDO cap
+Y15,GPIO2_VCC_CAP,RO,1.8V,GPIO2 1.8V LDO cap
+Y16,VSS,G,0V,Digital Core ground
+Y17,VSS,G,0V,Digital Core ground
+Y18,VSS,G,0V,Digital Core ground
+Y19,VSS,G,0V,Digital Core ground
+Y2,GPIO_74,I/O,1.8V,General Purpose I/O 74
+Y20,VSS,G,0V,Digital Core ground
+Y21,VCC18_GPIO,P,1.8V,GPIO1/4/5/PMIC I/O power
+Y22,GPIO_26,I/O,1.8V,General Purpose I/O 26
+Y23,GPIO_27,I/O,1.8V,General Purpose I/O 27
+Y24,VSS,G,0V,Digital Core ground
+Y25,GPIO_28,I/O,1.8V,General Purpose I/O 28
+Y26,GPIO_115,I/O,1.8V,General Purpose I/O 115
+Y3,VSS,G,0V,Digital Core ground
+Y4,MIPI_DSI1_D0N,AO,1.2V,DSI DATA0LANEN
+Y5,MIPI_DSI1_D0P,AO,1.2V,DSI DATA0LANEP
+Y6,VSS,G,0V,Digital Core ground
+Y7,AVDD33_HDMI,P,3.3V,HDMI 3.3V power
+Y8,AVDD33_HDMI,P,3.3V,HDMI 3.3V power
+Y9,AVDD09_HDMI,P,0.9V,HDMI digtial power
