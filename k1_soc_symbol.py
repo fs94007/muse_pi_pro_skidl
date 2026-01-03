@@ -4,7 +4,7 @@
 K1 SoC SKiDL Component Definition
 
 This module provides a SKiDL component definition for the K1 SoC
-with all pins categorized by function.
+with all 676 pins categorized by function.
 """
 
 from skidl import *
@@ -13,7 +13,7 @@ class K1_SoC(Component):
     """
     K1 SoC Component with all pins organized by functional groups.
 
-    This component provides access to all 678 pins of the K1 SoC,
+    This component provides access to all 676 pins of the K1 SoC,
     categorized into functional groups for easier schematic design.
     """
 

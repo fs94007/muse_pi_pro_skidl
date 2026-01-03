@@ -35,7 +35,7 @@ jtag_tdo = k1['PRI_TDO']
 
 ## Pin Classification
 
-The K1 SoC has 678 pins organized into the following functional categories:
+The K1 SoC has 676 pins organized into the following functional categories:
 
 - **电源和地**: 205 pins
 - **DDR/LPDDR接口**: 188 pins
