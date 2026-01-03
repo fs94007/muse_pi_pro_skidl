@@ -1,0 +1,1430 @@
+K1 SoC Pin Classification
+==================================================
+
+电源和地
+----
+Total pins: 205
+
+  A1     VSS                  GND             0V                  
+       Digital Core Ground
+  A26    VSS                  GND             0V                  
+       Digital Core Ground
+  AA11   VSS                  GND             0V                  
+       Digital Core ground
+  AA12   VSS                  GND             0V                  
+       Digital Core ground
+  AA17   VSS                  GND             0V                  
+       Digital Core ground
+  AA18   VSS                  GND             0V                  
+       Digital Core ground
+  AA26   VSS                  GND             0V                  
+       Digital Core ground
+  AA3    VSS                  GND             0V                  
+       Digital Core ground
+  AA4    VSS                  GND             0V                  
+       Digital Core ground
+  AA5    VSS                  GND             0V                  
+       Digital Core ground
+  AA6    VSS                  GND             0V                  
+       Digital Core ground
+  AB10   VSS                  GND             0V                  
+       Digital Core ground
+  AB11   VSS                  GND             0V                  
+       Digital Core ground
+  AB12   VSS                  GND             0V                  
+       Digital Core ground
+  AB19   VSS                  GND             0V                  
+       Digital Core ground
+  AB20   VSS                  GND             0V                  
+       Digital Core ground
+  AB24   VSS                  GND             0V                  
+       Digital Core ground
+  AB3    VSS                  GND             0V                  
+       Digital Core ground
+  AC16   VSS                  GND             0V                  
+       Digital Core ground
+  AC19   VSS                  GND             0V                  
+       Digital Core ground
+  AC25   VSS                  GND             0V                  
+       Digital Core ground
+  AD16   VSS                  GND             0V                  
+       Digital Core ground
+  AD3    VSS                  GND             0V                  
+       Digital Core ground
+  AD4    VSS                  GND             0V                  
+       Digital Core ground
+  AD5    VSS                  GND             0V                  
+       Digital Core ground
+  AD6    VSS                  GND             0V                  
+       Digital Core ground
+  AD7    VSS                  GND             0V                  
+       Digital Core ground
+  AE1    VSS                  GND             0V                  
+       Digital Core ground
+  AE13   VSS                  GND             0V                  
+       Digital Core ground
+  AE24   VSS                  GND             0V                  
+       Digital Core ground
+  AE26   VSS                  GND             0V                  
+       Digital Core ground
+  AE3    VSS                  GND             0V                  
+       Digital Core ground
+  AF1    VSS                  GND             0V                  
+       Digital Core ground
+  AF10   VSS                  GND             0V                  
+       Digital Core ground
+  AF15   VSS                  GND             0V                  
+       Digital Core ground
+  AF2    VSS                  GND             0V                  
+       Digital Core ground
+  AF20   VSS                  GND             0V                  
+       Digital Core ground
+  AF25   VSS                  GND             0V                  
+       Digital Core ground
+  AF26   VSS                  GND             0V                  
+       Digital Core ground
+  AF5    VSS                  GND             0V                  
+       Digital Core ground
+  B1     VSS                  GND             0V                  
+       Digital Core Ground
+  B26    VSS                  GND             0V                  
+       Digital Core Ground
+  C23    VSS                  GND             0V                  
+       Digital Core Ground
+  D22    VSS                  GND             0V                  
+       Digital Core Ground
+  D25    VSS                  GND             0V                  
+       Digital Core Ground
+  E4     VSS                  GND             0V                  
+       Digital Core Ground
+  E6     VSS                  GND             0V                  
+       Digital Core Ground
+  F1     VSS                  GND             0V                  
+       Digital Core Ground
+  F2     VSS                  GND             0V                  
+       Digital Core Ground
+  F7     VSS                  GND             0V                  
+       Digital Core Ground
+  G25    VSS                  GND             0V                  
+       Digital Core Ground
+  G26    VSS                  GND             0V                  
+       Digital Core Ground
+  G3     VSS                  GND             0V                  
+       Digital Core Ground
+  G6     VSS                  GND             0V                  
+       Digital Core Ground
+  G7     VSS                  GND             0V                  
+       Digital Core Ground
+  G8     VSS                  GND             0V                  
+       Digital Core Ground
+  G9     VSS                  GND             0V                  
+       Digital Core Ground
+  H10    VSSU_DDR             GND             0V                  
+       system DDR Ground
+  H11    VSSU_DDR             GND             0V                  
+       system DDR Ground
+  H16    VSSU_DDR             GND             0V                  
+       System DDR Ground
+  H17    VSSU_DDR             GND             0V                  
+       System DDR Ground
+  H3     VSS                  GND             0V                  
+       Digital Core Ground
+  H9     VSS                  GND             0V                  
+       Digital Core Ground
+  J10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  J16    VSS                  GND             0V                  
+       Digital Core Ground
+  J17    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  K10    VSS                  GND             0V                  
+       Digital Core Ground
+  K15    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  K16    VSS                  GND             0V                  
+       Digital core Ground
+  K17    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  K9     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  L10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  L14    VSSU_PLL             GND             0V                  
+       System PLL Ground
+  L15    VSS                  GND             0V                  
+       Digital core Ground
+  L16    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  M10    VSS                  GND             0V                  
+       Digital Core Ground
+  M12    VSS                  GND             0V                  
+       Digital Core Ground
+  M13    VSS                  GND             0V                  
+       Digital Core Ground
+  M14    VSS                  GND             0V                  
+       Digital Core Ground
+  M15    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  M16    VSS                  GND             0V                  
+       Digital Core Ground
+  M3     VSS                  GND             0V                  
+       Digital Core Ground
+  M4     VSS                  GND             0V                  
+       Digital Core Ground
+  N10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  N11    VSS                  GND             0V                  
+       Digital Core Ground
+  N12    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  N13    VSS                  GND             0V                  
+       Digital Core Ground
+  N14    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  N15    VSS                  GND             0V                  
+       Digital Core Ground
+  N16    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  N21    NC                   POWER_IN        1.8V                
+       NC
+  N22    NC                   POWER_IN        -1.8V               
+       NC
+  N23    NC                   ANALOG_OUT      +/-1.8V             
+       NC
+  N24    NC                   ANALOG_OUT      +/-1.8V             
+       NC
+  N25    NC                   ANALOG_OUT      3.3V                
+       NC
+  N26    NC                   ANALOG_OUT      3.3V                
+       NC
+  P10    VSS                  GND             0V                  
+       Digital Core Ground
+  P11    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  P12    VSS                  GND             0V                  
+       Digital Core Ground
+  P13    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  P14    VSS                  GND             0V                  
+       Digital Core Ground
+  P15    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  P16    VSS                  GND             0V                  
+       Digital Core Ground
+  P20    NC                   ANALOG_OUT      1.8V                
+       NC
+  P21    NC                   ANALOG_OUT      1.8V                
+       NC
+  P22    NC                   ANALOG_OUT      1.8V                
+       NC
+  P23    NC                   ANALOG_IN       1.8V                
+       NC
+  P24    NC                   ANALOG_IN       1.8V                
+       NC
+  P25    NC                   ANALOG_IN       1.8V                
+       NC
+  P26    NC                   ANALOG_IN       1.8V                
+       NC
+  R10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  R11    VSS                  GND             0V                  
+       Digital Core Ground
+  R12    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  R13    VSS                  GND             0V                  
+       Digital Core Ground
+  R14    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  R15    VSS                  GND             0V                  
+       Digital Core Ground
+  R16    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  R20    NC                   ANALOG_OUT      1.8V                
+       NC
+  R22    NC                   ANALOG_IN       1.8V                
+       NC
+  R23    NC                   ANALOG_IN       1.8V                
+       NC
+  R24    VSS                  GND             0V                  
+       Digital core ground
+  R25    NC                   ANALOG_IN       1.8V                
+       NC
+  R26    NC                   ANALOG_IN       1.8V                
+       NC
+  R3     VSS                  GND             0V                  
+       Digital core Ground
+  R8     VSS                  GND             0V                  
+       Digital Core Ground
+  R9     VSS                  GND             0V                  
+       Digital Core Ground
+  T10    VSS                  GND             0V                  
+       Digital Core ground
+  T11    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  T12    VSS                  GND             0V                  
+       Digital Core ground
+  T13    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  T14    VSS                  GND             0V                  
+       Digital Core ground
+  T15    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  T16    VSS                  GND             0V                  
+       Digital Core ground
+  T17    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  T18    VSS                  GND             0V                  
+       Digital Core ground
+  T19    VSS                  GND             0V                  
+       Digital Core ground
+  T20    VSS                  GND             0V                  
+       Digital Core ground
+  T23    NC                   ANALOG_IN       1.8V                
+       NC
+  T24    VSS                  GND             0V                  
+       Digital Core ground
+  T25    NC                   ANALOG_OUT      3.3V                
+       NC
+  T26    VSS                  GND             0V                  
+       Digital core ground
+  T3     VSS                  GND             0V                  
+       Digital core ground
+  T6     VSS                  GND             0V                  
+       Digital core ground
+  T9     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U11    VSS                  GND             0V                  
+       Digital Core ground
+  U12    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U13    VSS                  GND             0V                  
+       Digital Core ground
+  U14    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U15    VSS                  GND             0V                  
+       Digital Core ground
+  U16    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U17    VSS                  GND             0V                  
+       Digital Core ground
+  U18    VCC_M1_FB            POWER_IN        0.9V                
+       Digital Core power FeedBack
+  U19    VSS_FB               GND             0V                  
+       Digital Core ground FeedBack
+  U20    VSS                  GND             0V                  
+       Digital core ground
+  U23    NC                   ANALOG_IN       1.8V                
+       NC
+  U24    NC                   ANALOG_OUT      3.3V                
+       NC
+  U6     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U8     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  U9     VSS                  GND             0V                  
+       Digital Core ground
+  V10    VSS                  GND             0V                  
+       Digital Core ground
+  V11    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  V12    VSS                  GND             0V                  
+       Digital Core ground
+  V13    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  V14    VSS                  GND             0V                  
+       Digital Core ground
+  V15    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  V16    VSS                  GND             0V                  
+       Digital Core ground
+  V17    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  V18    VSS                  GND             0V                  
+       Digital Core ground
+  V19    VSS                  GND             0V                  
+       Digital Core ground
+  V20    VSS                  GND             0V                  
+       Digital Core ground
+  V22    VSS                  GND             0V                  
+       Digital Core ground
+  V25    VSS                  GND             0V                  
+       Digital Core ground
+  V7     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  V8     VSS                  GND             0V                  
+       Digital Core ground
+  V9     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W1     VSS                  GND             0V                  
+       Digital Core ground
+  W10    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W11    VSS                  GND             0V                  
+       Digital Core ground
+  W12    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W14    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W15    VSS                  GND             0V                  
+       Digital Core ground
+  W16    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W17    VSS                  GND             0V                  
+       Digital Core ground
+  W18    VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W19    VSS                  GND             0V                  
+       Digital Core ground
+  W2     VSS                  GND             0V                  
+       Digital Core ground
+  W20    VSS                  GND             0V                  
+       Digital Core ground
+  W24    VSS                  GND             0V                  
+       Digital Core ground
+  W3     VSS                  GND             0V                  
+       Digital Core ground
+  W6     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W7     VSS                  GND             0V                  
+       Digital Core ground
+  W8     VCC_M1               POWER_IN        0.9V                
+       Digital Core power
+  W9     VSS                  GND             0V                  
+       Digital Core ground
+  Y11    VSS                  GND             0V                  
+       Digital Core ground
+  Y12    VSS                  GND             0V                  
+       Digital Core ground
+  Y13    VSS                  GND             0V                  
+       Digital Core ground
+  Y16    VSS                  GND             0V                  
+       Digital Core ground
+  Y17    VSS                  GND             0V                  
+       Digital Core ground
+  Y18    VSS                  GND             0V                  
+       Digital Core ground
+  Y19    VSS                  GND             0V                  
+       Digital Core ground
+  Y20    VSS                  GND             0V                  
+       Digital Core ground
+  Y24    VSS                  GND             0V                  
+       Digital Core ground
+  Y3     VSS                  GND             0V                  
+       Digital Core ground
+  Y6     VSS                  GND             0V                  
+       Digital Core ground
+
+DDR/LPDDR接口
+-----------
+Total pins: 188
+
+  A10    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  A11    DQ_B_9               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ9; LPDDR3: DQ8
+  A12    DQ_B_12              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ12; LPDDR3: DQ10
+  A13    DQ_B_11              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ11; LPDDR3: DQ11
+  A14    DQS1_C_B             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Negative of CHB DQS1; LPDDR3: Negtive of DQS1
+  A15    DQS1_C_A             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Negative of CHA DQS1; LPDDR3: Negtive of DQS0
+  A16    DQ_A_12              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ12; LPDDR3: DQM0
+  A17    DQ_A_9               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ9; LPDDR3: DQ7
+  A18    DQ_A_8               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ8; LPDDR3: DQ5
+  A19    DQ_A_15              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ15; LPDDR3: DQ3
+  A2     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  A20    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  A21    DQ_A_5               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ5; LPDDR3: DQ21
+  A22    DQ_A_7               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ7; LPDDR3: DQ17
+  A23    DMI0_A               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Channel A DM0; LPDDR3: DQ22
+  A24    DQ_A_1               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ1; LPDDR3: DQ16
+  A25    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  A3     DQ_B_2               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ2; LPDDR3: DQ28
+  A4     DMI0_B               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Channel B DM0; LPDDR3: DQ25
+  A5     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  A6     DQ_B_6               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ6; LPDDR3: DQ24
+  A7     DQ_B_4               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ4; LPDDR3: DQ30
+  A8     DQ_B_13              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ13; LPDDR3: DQ15
+  A9     DQ_B_15              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ15; LPDDR3: DQ12
+  AA7    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  AB6    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  AB9    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  AC6    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  AC8    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  AC9    AVSS_HDMI            GND             0V                  
+       HDMI Ground
+  B10    DMI1_B               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Channel B DM1; LPDDR3: DQ14
+  B11    DQ_B_8               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ12; LPDDR3: DQM1
+  B12    DQ_B_10              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ10; LPDDR3: DQ9
+  B13    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  B14    DQS1_T_B             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Positive of CHB DQS1; LPDDR3: Positive of DQS1
+  B15    DQS1_T_A             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Positive of CHA DQS1; LPDDR3: Positive of DQS0
+  B16    DQ_A_11              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ11; LPDDR3: DQ4
+  B17    DQ_A_10              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ10; LPDDR3: DQ6
+  B18    DMI1_A               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Channel A DM1; LPDDR3: DQ2
+  B19    DQ_A_14              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ14; LPDDR3: DQ1
+  B2     DQ_B_3               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ3; LPDDR3: DQM3
+  B20    DQ_A_13              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ13; LPDDR3: DQ0
+  B21    DQ_A_4               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ4; LPDDR3: DQ18
+  B22    DQ_A_6               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ6; LPDDR3: DQ23
+  B23    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  B24    DQ_A_2               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ2; LPDDR3: DQ19
+  B25    DQ_A_3               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ3; LPDDR3: DQM2
+  B3     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  B4     DQ_B_1               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ1; LPDDR3: DQ27
+  B5     DQ_B_0               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ0; LPDDR3: DQ31
+  B6     DQ_B_7               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ7; LPDDR3: DQ29
+  B7     DQ_B_5               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ5; LPDDR3: DQ26
+  B8     VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  B9     DQ_B_14              PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB DQ14; LPDDR3: DQ13
+  C10    CKE0_B               ANALOG_OUT      lp3: 1.2V; lp4x: 1.1V
+       LPDDR4X: clock enabling 0 of CHB; LPDDR3: N/A
+  C11    CKE1_B               ANALOG_OUT      lp3: 1.2V; lp4x: 1.1V
+       LPDDR4X: clock enabling 1 of CHB; LPDDR3: N/A
+  C12    VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  C13    CA_B_5               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB CA5; LPDDR3: CA8
+  C14    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  C15    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  C16    CA_A_4               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA4; LPDDR3: CA3
+  C17    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  C18    CKE1_A               ANALOG_OUT      lp3: 1.2V; lp4x: 1.1V
+       LPDDR4X: clock enabling 1 of CHA; LPDDR3: clock enabling 1
+  C19    CA_A_1               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA1; LPDDR3: CA2
+  C20    CS1_A                ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Active-low chip select 1 of CHA; LPDDR3: Active-low chip select 1
+  C21    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD/lp3: TBD
+       LPDDR4X IO power
+  C22    DQ_A_0               PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA DQ0; LPDDR3: DQ20
+  C6     DQS0_T_B             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Positive of CHB DQS0; LPDDR3: Positive of DQS3
+  C7     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  C8     CS1_B                ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Active-low chip select 1 of CHB; LPDDR3: N/A
+  C9     CA_B_1               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB CA1; LPDDR3: CA5
+  D10    DDR_lp4x_SEL         PASSIVE         1.8V                
+       LPDDR4X: connect to 1.8V; LP234: connect to Ground
+  D11    CK_C_B               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: negative LPDDR differential clock of CHB; LPDDR3: negative LPDDR differential clock
+  D12    CA_B_2               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB CA2; LPDDR3: CA9
+  D13    CA_B_4               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA4; LPDDR3: CA7
+  D14    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  D15    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD; lp3: TBD
+       LPDDR4X IO power
+  D16    CA_A_2               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA2
+  D17    CK_C_A               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: negative LPDDR differential clock of CHA; LPDDR3: N/A
+  D18    CKE0_A               ANALOG_OUT      lp3: 1.2V; lp4x: 1.1V
+       LPDDR4X: clock enabling 0 of CHA; LPDDR3: clock enabling 0
+  D19    CA_A_0               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA0; LPDDR3: CA4
+  D20    DQS0_T_A             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Positive of CHA DQS0; LPDDR3: Positive of DQS2
+  D21    DQS0_C_A             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Negative of CHA DQS0; LPDDR3: Negative of DQS2
+  D6     DQS0_C_B             PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Negative of CHB DQS0; LPDDR3: Negtive of DQS3
+  D7     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  D8     CA_B_0               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB CA0
+  D9     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  E10    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  E11    CK_T_B               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: positive LPDDR differential clock of CHB; LPDDR3: positive LPDDR differential clock
+  E12    CA_B_3               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHB CA3; LPDDR3: CA6
+  E13    AVSS18_DDR           GND             0V                  
+       DDR Ground
+  E14    AVDD18_DDR           POWER_IN        1.8V                
+       LPDDR PHY PLL 1.8V power
+  E15    CA_A_5               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA5; LPDDR3: CA1
+  E16    CS0_A                ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: Active-low chip select 0 of CHA; LPDDR3: Active-low chip select 0
+  E17    CK_T_A               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: positive LPDDR differential clock of CHA; LPDDR3: N/A
+  E18    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD; lp3: TBD
+       LPDDR4X IO power
+  E19    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD; lp3: TBD
+       LPDDR4X IO power
+  E20    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  E21    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  E23    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  E7     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  E8     VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  E9     DDR_LP23_VREFDQ      POWER_IN        lp3: 0.6V; lp4: high-z
+       DQ VREF for lpddr23 , LP4/4x; Keep the pin NC
+  F10    VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  F11    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  F12    CS0_B                ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: clock enabling 1 of CHB; LPDDR3: N/A
+  F13    DDR_RESET_N          ANALOG_OUT      lp3: 1.2V; lp4x: 1.1V
+       LPDDR SDRAM reset
+  F14    ZQ_DDR_PHY           PASSIVE         lp3: 1.2V; lp4x: 0.6V
+       DDR ZQ calibration
+  F15    CA_A_3               ANALOG_OUT      lp3: 1.2V; lp4x: 0.6V
+       LPDDR4X: CHA CA3; LPDDR3: CA0
+  F16    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  F17    DDR_LDO_CAP          NC              0.7~0.9V            
+       External LDO output ball;; Connect to a 100nF capacitor on PCB board
+  F18    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD; lp3: TBD
+       LPDDR4X IO power
+  F19    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  F20    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  F21    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  F22    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  F8     VSSQ_DDR             GND             0V                  
+       DDR Ground
+  F9     VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  G10    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  G11    VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  G12    AVDD11_DDR           POWER_IN        lp4x: 1.1V; lp4: 1.1V; lp3: 1.2V
+       LPDDR PHY power supply
+  G13    VDDQ_V1P2            POWER_IN        lp3: 1.2V; lp4x: 0.6V
+       LPDDR3 IO power
+  G14    DDR_LP23_VREFCA      POWER_IN        lp3: 0.6V; lp4: high-z
+       CA VREF for lpddr23, LP4/4x; Keep the pin NC
+  G15    AVDD11_DDR           POWER_IN        lp4x: 1.1V; lp4: 1.1V; lp3: 1.2V
+       LPDDR PHY power supply
+  G16    AVDD06_DDR           POWER_IN        lp4x: 0.6V; lp4: TBD; lp3: TBD
+       LPDDR4X IO power
+  G17    VSSQ_DDR             GND             0V                  
+       DDR Ground
+  G19    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  G20    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  G21    AVSS_EMMC            GND             0V                  
+       eMMC Ground
+  H12    AVDD18_PHY           POWER_IN        1.8V                
+       Analog 1.8V power
+  H13    AVDDU_DDR            POWER_IN        0.9V                
+       LPDDR PHY PLL logical power
+  H14    AVSSU_DDR            GND             0V                  
+       DDR Ground
+  H15    AVDD18_PHY           POWER_IN        1.8V                
+       Analog 1.8V power
+  H20    AVDD09_EMMC          POWER_IN        0.9V                
+       eMMC digtial power
+  H24    AVSS_PCIEC           GND             0V                  
+       PCIEC Ground
+  H6     AVSS18_AFEAP         GND             0V                  
+       DCXO Ground
+  H8     AVSS18_AFEAP         GND             0V                  
+       DCXO Ground
+  J20    AVDD09_EMMC          POWER_IN        0.9V                
+       eMMC digtial power
+  J21    AVSS_PCIEC           GND             0V                  
+       PCIEC Ground
+  J24    AVSS_PCIEC           GND             0V                  
+       PCIEC Ground
+  J3     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  J6     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  J8     AVSS18_AFEAP         GND             0V                  
+       DCXO Ground
+  J9     AVSS18_AFEAP         GND             0V                  
+       DCXO Ground
+  K20    AVDD09_PCIEC         POWER_IN        0.9V                
+       PCIEC digital power
+  K21    AVSS_PCIEC           GND             0V                  
+       PCIEC Ground
+  K24    AVSS_PCIEC           GND             0V                  
+       PCIEC Ground
+  K3     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  K7     AVDD09_CSI           POWER_IN        0.9V                
+       MIPI_CSI digtial power
+  K8     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  L11    AVDD09_AFEAP         POWER_IN        0.9V                
+       0.9V power for DCXO
+  L13    AVSS_PLL             GND             0V                  
+       Analog Core Ground
+  L20    AVDD09_PCIEB         POWER_IN        0.9V                
+       PCIEB digital power
+  L21    AVDD09_PCIEB         POWER_IN        0.9V                
+       PCIEB digital power
+  L24    AVSS_PCIEB           GND             0V                  
+       PCIEB Ground
+  L3     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  L7     AVDD09_CSI           POWER_IN        0.9V                
+       MIPI_CSI digtial power
+  L8     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  L9     AVSS_CSI             GND             0V                  
+       MIPI_CSI Ground
+  M11    AVDD09_PLL           POWER_IN        0.9                 
+       System PLL power supply
+  M20    AVSS_PCIEB           GND             0V                  
+       PCIEB Ground
+  M21    AVSS_PCIEB           GND             0V                  
+       PCIEB Ground
+  M24    AVSS_PCIEB           GND             0V                  
+       PCIEB Ground
+  M7     AVDD09_USB           POWER_IN        0.9V                
+       USB2.0 digital power
+  N17    AVSS18_AUD           GND             0V                  
+       Audio Ground
+  N19    AVSS18_AUD           GND             0V                  
+       Audio Ground
+  N20    AVSS18_AUD           GND             0V                  
+       Audio Ground
+  N3     AVSS_USB             GND             0V                  
+       USB2.0 Ground
+  N7     AVDD09_PCIEA         POWER_IN        0.9V                
+       PCIEA digital power
+  N8     AVSS_PCIEA           GND             0V                  
+       PCIEA Ground
+  P3     AVSS_USB             GND             0V                  
+       USB2.0 Ground
+  P5     AVSS_USB             GND             0V                  
+       USB2.0 Ground
+  P7     AVDD09_USB           POWER_IN        0.9V                
+       USB2.0 digital power
+  P8     AVDD09_USB           POWER_IN        0.9V                
+       USB2.0 digital power
+  R7     AVSS_USB             GND             0V                  
+       USB2.0 Ground
+  T21    AVSS18_AUD           GND             0V                  
+       Audio Ground
+  T22    AVSS18_AUD           GND             0V                  
+       Audio Ground
+  T7     AVDD09_DSI1          POWER_IN        0.9V                
+       DSI digital power
+  U3     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  U4     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  U5     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  U7     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  V3     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  V4     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  V5     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  V6     AVSS_DSI1            GND             0V                  
+       DSI Ground
+  Y10    AVDD09_HDMI          POWER_IN        0.9V                
+       HDMI digtial power
+  Y9     AVDD09_HDMI          POWER_IN        0.9V                
+       HDMI digtial power
+
+JTAG
+----
+Total pins: 6
+
+  AA1    PRI_TCK              BIDIRECTIONAL   1.8V                
+       JTAG clock
+  AA2    PRI_TDO              BIDIRECTIONAL   1.8V                
+       JTAG output data
+  AB1    PRI_TDI              BIDIRECTIONAL   1.8V                
+       JTAG input data
+  AB2    PRI_TMS              BIDIRECTIONAL   1.8V                
+       JTAG mode selection
+  AF4    JTAG_SEL             BIDIRECTIONAL   1.8V                
+       Primary JTAG selection
+  Y1     PRI_TRST_N           BIDIRECTIONAL   1.8V                
+       JTAG reset
+
+HDMI接口
+------
+Total pins: 12
+
+  AA10   AVDD18_HDMI          POWER_IN        1.8V                
+       HDMI 1.8V power
+  AA8    HDMI_TX2N            ANALOG_OUT      1.8V                
+       HDMI data2n
+  AA9    AVDD18_HDMI          POWER_IN        1.8V                
+       HDMI 1.8V power
+  AB4    HDMI_TXCN            ANALOG_OUT      1.8V                
+       HDMI clkn
+  AB5    HDMI_TX0N            ANALOG_OUT      1.8V                
+       HDMI data0n
+  AB7    HDMI_TX1N            ANALOG_OUT      1.8V                
+       HDMI data1n
+  AB8    HDMI_TX2P            ANALOG_OUT      1.8V                
+       HDMI data2p
+  AC4    HDMI_TXCP            ANALOG_OUT      1.8V                
+       HDMI clkp
+  AC5    HDMI_TX0P            ANALOG_OUT      1.8V                
+       HDMI data0p
+  AC7    HDMI_TX1P            ANALOG_OUT      1.8V                
+       HDMI data1p
+  Y7     AVDD33_HDMI          POWER_IN        3.3V                
+       HDMI 3.3V power
+  Y8     AVDD33_HDMI          POWER_IN        3.3V                
+       HDMI 3.3V power
+
+GPIO
+----
+Total pins: 122
+
+  AA13   VCC1833_GPIO3        POWER_IN        1.8V/3.3V           
+       GPIO3 IO power
+  AA15   VCC1833_GPIO2        POWER_IN        1.8V/3.3V           
+       GPIO2 IO power
+  AA19   GPIO_32              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 32
+  AA20   GPIO_29              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 29
+  AA21   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AA22   GPIO_21              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 21
+  AA23   GPIO_24              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 24
+  AA24   GPIO_23              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 23
+  AA25   GPIO_25              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 25
+  AB13   GPIO_51              BIDIRECTIONAL   1.8V/3.3V           
+       General purpose I/O 51
+  AB15   GPIO_78              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 78
+  AB16   GPIO_77              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 77
+  AB17   GPIO_02              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 02
+  AB18   GPIO_03              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 03
+  AB21   GPIO_41              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 41
+  AB22   GPIO_44              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 44
+  AB23   GPIO_19              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 19
+  AB25   GPIO_20              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 20
+  AB26   GPIO_22              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 22
+  AC1    GPIO_61              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 61
+  AC10   GPIO_86              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 86
+  AC11   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AC12   GPIO_52              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 52
+  AC13   GPIO_47              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 47
+  AC14   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AC15   GPIO_79              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 79
+  AC17   GPIO_05              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 05
+  AC18   GPIO_00              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 00
+  AC2    GPIO_62              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 62
+  AC20   GPIO_31              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 31
+  AC21   GPIO_34              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 34
+  AC22   GPIO_42              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 42
+  AC23   GPIO_43              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 43
+  AC24   GPIO_17              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 17
+  AC26   GPIO_18              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 18
+  AC3    VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AD1    GPIO_59              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 59
+  AD11   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AD12   GPIO_50              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 50
+  AD13   GPIO_48              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 48
+  AD15   GPIO_76              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 76
+  AD17   GPIO_04              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 04
+  AD18   GPIO_01              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 01
+  AD19   GPIO_30              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 30
+  AD2    GPIO_60              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 60
+  AD20   GPIO_33              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 33
+  AD21   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AD22   VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  AD23   GPIO_14              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 14
+  AD24   GPIO_12              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 12
+  AD25   GPIO_16              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 16
+  AD26   GPIO_15              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 15
+  AD8    GPIO_87              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 87
+  AD9    GPIO_85              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 85
+  AE11   PWR_SCL              BIDIRECTIONAL   1.8V                
+       PMIC I2C bus clock
+  AE16   GPIO_75              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 75
+  AE17   GPIO_11              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 11
+  AE18   GPIO_07              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 07
+  AE19   GPIO_10              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 10
+  AE20   GPIO_37              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 37
+  AE21   GPIO_35              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 35
+  AE22   GPIO_38              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 38
+  AE23   GPIO_46              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 46
+  AE25   GPIO_13              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 13
+  AE4    GPIO_92              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 92
+  AE5    GPIO_90              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 90
+  AE6    GPIO_91              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 91
+  AE7    GPIO_89              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 89
+  AE8    GPIO_84              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 84
+  AE9    GPIO_81              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 81
+  AF12   PWR_SDA              BIDIRECTIONAL   1.8V                
+       PMIC I2C bus data/address
+  AF13   GPIO_49              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 49
+  AF16   GPIO_80              BIDIRECTIONAL   1.8V/3.3V           
+       General Purpose I/O 80
+  AF17   GPIO_08              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 08
+  AF18   GPIO_06              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 06
+  AF19   GPIO_09              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 09
+  AF21   GPIO_40              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 40
+  AF22   GPIO_36              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 36
+  AF23   GPIO_39              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 39
+  AF24   GPIO_45              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 45
+  AF6    GPIO_88              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 88
+  AF7    GPIO_82              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 82
+  AF8    GPIO_83              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 83
+  C1     GPIO_58              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 58
+  C2     GPIO_57              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 57
+  C3     GPIO_56              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 56
+  C4     GPIO_55              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 55
+  C5     GPIO_54              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 54
+  D1     GPIO_114             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 114
+  D2     GPIO_113             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 113
+  D3     GPIO_112             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 112
+  D4     GPIO_111             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 111
+  D5     GPIO_53              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 53
+  E1     GPIO_67              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 67
+  E2     GPIO_65              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 65
+  E3     GPIO_64              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 64
+  E5     GPIO_63              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 63
+  F3     GPIO_69              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 69
+  F4     GPIO_68              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 68
+  F5     GPIO_66              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 66
+  F6     VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  U21    GPIO_123             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 123
+  U22    GPIO_125             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 125
+  U25    GPIO_126             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 126
+  U26    GPIO_127             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 127
+  V21    GPIO_121             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 121
+  V23    GPIO_124             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 124
+  V24    GPIO_120             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 120
+  V26    GPIO_122             BIDIRECTIONAL   1.8V                
+       General purpose I/O 122
+  W13    GPIO3_VCC_CAP        NC              1.8V                
+       GPIO3 1.8V LDO cap
+  W21    GPIO_110             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 110
+  W22    GPIO_117             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 117
+  W23    GPIO_116             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 116
+  W25    GPIO_119             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 119
+  W26    GPIO_118             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 118
+  Y15    GPIO2_VCC_CAP        NC              1.8V                
+       GPIO2 1.8V LDO cap
+  Y2     GPIO_74              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 74
+  Y21    VCC18_GPIO           POWER_IN        1.8V                
+       GPIO1/4/5/PMIC I/O power
+  Y22    GPIO_26              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 26
+  Y23    GPIO_27              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 27
+  Y25    GPIO_28              BIDIRECTIONAL   1.8V                
+       General Purpose I/O 28
+  Y26    GPIO_115             BIDIRECTIONAL   1.8V                
+       General Purpose I/O 115
+
+SD/eMMC接口
+---------
+Total pins: 22
+
+  AA14   VCC1833_MMC1         POWER_IN        1.8V/3.3V           
+       SD card IO power
+  AA16   MMC1_DAT2            BIDIRECTIONAL   1.8V/3.3V           
+       SD card data 2
+  AB14   MMC1_DAT0            BIDIRECTIONAL   1.8V/3.3V           
+       SD card data 0
+  AD14   MMC1_CMD             BIDIRECTIONAL   1.8V/3.3V           
+       SD card command
+  AE14   MMC1_CLK             BIDIRECTIONAL   1.8V/3.3V           
+       SD card clock
+  AE15   MMC1_DAT3            BIDIRECTIONAL   1.8V/3.3V           
+       SD card data 3
+  AF14   MMC1_DAT1            BIDIRECTIONAL   1.8V/3.3V           
+       SD card data 1
+  C24    EMMC_DS              BIDIRECTIONAL   1.8V                
+       eMMC data strobe
+  C25    EMMC_D7              BIDIRECTIONAL   1.8V                
+       eMMC data7
+  C26    EMMC_D2              BIDIRECTIONAL   1.8V                
+       eMMC data2
+  D23    EMMC_D4              BIDIRECTIONAL   1.8V                
+       eMMC data4
+  D24    EMMC_D1              BIDIRECTIONAL   1.8V                
+       eMMC data1
+  D26    EMMC_D0              BIDIRECTIONAL   1.8V                
+       eMMC data0
+  E22    EMMC_D6              BIDIRECTIONAL   1.8V                
+       eMMC data6
+  E24    EMMC_CLK             BIDIRECTIONAL   1.8V                
+       eMMC Clock
+  E25    EMMC_D3              BIDIRECTIONAL   1.8V                
+       eMMC data3
+  E26    EMMC_D5              BIDIRECTIONAL   1.8V                
+       eMMC data5
+  F25    EMMC_CMD             BIDIRECTIONAL   1.8V                
+       eMMC command
+  H18    VSSU_EMMC            GND             0V                  
+       eMMC Ground
+  H19    AVDD18_EMMC          POWER_IN        1.8V                
+       eMMC analog power
+  J18    VSSU_EMMC            GND             0V                  
+       eMMC Ground
+  Y14    MMC1_VCC_CAP         NC              1.8V                
+       SD card 1.8V LDO cap
+
+电源管理和控制
+-------
+Total pins: 5
+
+  AD10   PMIC_INT_N           BIDIRECTIONAL   1.8V                
+       PMIC interrupt
+  AE10   DVL0                 BIDIRECTIONAL   1.8V                
+       Hardware dynamic voltage regulation signal0
+  AF11   SLEEP_OUT            BIDIRECTIONAL   1.8V                
+       VCXO enabling
+  AF3    RESET_IN_N           BIDIRECTIONAL   1.8V                
+       Reset input
+  AF9    DVL1                 BIDIRECTIONAL   1.8V                
+       Hardware dynamic voltage regulation signal1
+
+时钟和参考
+-----
+Total pins: 9
+
+  AE12   EXT_32K_IN           BIDIRECTIONAL   1.8V                
+       32K clock input
+  AE2    MPLL_TST_AD          PASSIVE         1.8V                
+       Analog testpin
+  H7     XI_PAD               ANALOG_IN       1.8V                
+       DCXO crystal input
+  J7     XO_PAD               ANALOG_OUT      1.8V                
+       DCXO crystal output
+  K11    BG_OUT               ANALOG_OUT      1.8V                
+       Bandgap output
+  K12    AVDD18_AFEAP         POWER_IN        1.8V                
+       1.8V power for DCXO
+  K13    MPLL_TST_CK          PASSIVE         1.8V                
+       Analog testpin
+  K14    AVDD18_PLL           POWER_IN        1.8                 
+       System PLL power supply
+  L12    VSSU_AFEAP           GND             0V                  
+       DCXO Ground
+
+QSPI接口
+------
+Total pins: 8
+
+  F23    QSPI_DAT2            BIDIRECTIONAL   1.8V/3.3V           
+       QSPI data2
+  F24    QSPI_DAT1            BIDIRECTIONAL   1.8V/3.3V           
+       QSPI data1
+  F26    QSPI_DAT0            BIDIRECTIONAL   1.8V/3.3V           
+       QSPI data0
+  G22    QSPI_DAT3            BIDIRECTIONAL   1.8V/3.3V           
+       QSPI data3
+  G23    QSPI_CLK             BIDIRECTIONAL   1.8V/3.3V           
+       QSPI CLK
+  G24    QSPI_CS1             BIDIRECTIONAL   1.8V/3.3V           
+       QSPI CS
+  H21    VCC1833_QSPI         POWER_IN        1.8V/3.3V           
+       QSPI IO power
+  J19    QSPI_VCC_CAP         NC              1.8V                
+       QSPI 1.8V LDO cap
+
+MIPI CSI接口
+----------
+Total pins: 24
+
+  G1     MIPI_CSI1_D1N        ANALOG_IN       1.8V                
+       CSI1 DATA1LANEN
+  G2     MIPI_CSI1_D1P        ANALOG_IN       1.8V                
+       CSI1 DATA1LANEP
+  G4     MIPI_CSI1_D0N        ANALOG_IN       1.8V                
+       CSI1 DATA0LANEN
+  G5     MIPI_CSI1_D0P        ANALOG_IN       1.8V                
+       CSI1 DATA0LANEP
+  H1     MIPI_CSI1_D2N        ANALOG_IN       1.8V                
+       CSI1 DATA2LANEN
+  H2     MIPI_CSI1_D2P        ANALOG_IN       1.8V                
+       CSI1 DATA2LANEP
+  H4     MIPI_CSI1_CLKN       ANALOG_OUT      1.8V                
+       CSI1 CKLANEN
+  H5     MIPI_CSI1_CLKP       ANALOG_OUT      1.8V                
+       CSI1 CKLANEP
+  J1     MIPI_CSI3_D0N        ANALOG_IN       1.8V                
+       CSI3 DATA0LANEN
+  J2     MIPI_CSI3_D0P        ANALOG_IN       1.8V                
+       CSI3 DATA0LANEP
+  J4     MIPI_CSI1_D3N        ANALOG_IN       1.8V                
+       CSI1 DATA3LANEN
+  J5     MIPI_CSI1_D3P        ANALOG_IN       1.8V                
+       CSI1 DATA3LANEP
+  K1     MIPI_CSI3_CLKN       ANALOG_OUT      1.8V                
+       CSI3 CKLANEN for CSI3 DATALANE0/1 when CSI3 is configured as two 2ch CSI;; CSI3 CKLANEN for CSI3 DATALANE0/1/2/3 when CSI3 is configured as 4ch CSI
+  K2     MIPI_CSI3_CLKP       ANALOG_OUT      1.8V                
+       CSI3 CKLANEP for CSI3 DATALANE0/1 when CSI3 is configured as two 2ch CSI;; CSI3 CKLANEP for CSI3 DATALANE0/1/2/3 when CSI3 is configured as 4ch CSI
+  K4     MIPI_CSI3_D1N        ANALOG_IN       1.8V                
+       CSI3 DATA1LANEN
+  K5     MIPI_CSI3_D1P        ANALOG_IN       1.8V                
+       CSI3 DATA1LANEP
+  K6     AVDD18_CSI           POWER_IN        1.8V                
+       MIPI_CSI analog power
+  L1     MIPI_CSI3_D2N        ANALOG_IN       1.8V                
+       CSI3 DATA2LANEN
+  L2     MIPI_CSI3_D2P        ANALOG_IN       1.8V                
+       CSI3 DATA2LANEP
+  L4     MIPI_CSI2_CLKN       ANALOG_OUT      1.8V                
+       CKLANEN for CSI3 DATALANE2/3 when CSI3 is configured as two 2ch CSI;; Disabled when CSI3 is configured as 4ch CSI
+  L5     MIPI_CSI2_CLKP       ANALOG_OUT      1.8V                
+       CKLANEP for CSI3 DATALANE2/3 when CSI3 is configured as two 2ch CSI;; Disabled when CSI3 is configured as 4ch CSI
+  L6     AVDD18_CSI           POWER_IN        1.8V                
+       MIPI_CSI analog power
+  M1     MIPI_CSI3_D3N        ANALOG_IN       1.8V                
+       CSI3 DATA3LANEN
+  M2     MIPI_CSI3_D3P        ANALOG_IN       1.8V                
+       CSI3 DATA3LANEP
+
+其他核心电源
+------
+Total pins: 6
+
+  G18    AVDD18_EFUSE         POWER_IN        1.8V                
+       ANAGRP
+  J11    AVDDU_PHY            POWER_IN        0.9V                
+       LPDDR PHY core logical power
+  J12    AVDDU_PHY            POWER_IN        0.9V                
+       LPDDR PHY core logical power
+  J13    AVDDU_PHY            POWER_IN        0.9V                
+       LPDDR PHY core logical power
+  J14    AVDDU_PHY            POWER_IN        0.9V                
+       LPDDR PHY core logical power
+  J15    AVDDU_PHY            POWER_IN        0.9V                
+       LPDDR PHY core logical power
+
+PCIe接口
+------
+Total pins: 38
+
+  H22    PCIEC_TX0P           ANALOG_OUT      1.8V                
+       PCIEC TX0LANEP
+  H23    PCIEC_TX0N           ANALOG_OUT      1.8V                
+       PCIEC TX0LANEN
+  H25    PCIEC_RX0P           ANALOG_IN       1.8V                
+       PCIEC RX0LANEP
+  H26    PCIEC_RX0N           ANALOG_IN       1.8V                
+       PCIEC RX0LANEN
+  J22    PCIEC_REFCLK_P       PASSIVE         1.8V                
+       PCIEC CKLANEP
+  J23    PCIEC_REFCLK_N       PASSIVE         1.8V                
+       PCIEC CKLANEN
+  J25    PCIEC_RX1P           ANALOG_IN       1.8V                
+       PCIEC RX1LANEP
+  J26    PCIEC_RX1N           ANALOG_IN       1.8V                
+       PCIEC RX1LANEN
+  K18    VSSU_PCIEC           GND             0V                  
+       PCIEC Ground
+  K19    VSSU_PCIEC           GND             0V                  
+       PCIEC Ground
+  K22    PCIEC_TX1P           ANALOG_OUT      1.8V                
+       PCIEC TX1LANEP
+  K23    PCIEC_TX1N           ANALOG_OUT      1.8V                
+       PCIEC TX1LANEN
+  K25    PCIEB_RX0P           ANALOG_IN       1.8V                
+       PCIEB RX0LANEP
+  K26    PCIEB_RX0N           ANALOG_IN       1.8V                
+       PCIEB RX0LANEN
+  L17    VSSU_PCIEC           GND             0V                  
+       PCIEC Ground
+  L18    VSSU_PCIEC           GND             0V                  
+       PCIEC Ground
+  L19    AVDD18_PCIEC         POWER_IN        1.8V                
+       PCIEC analog power
+  L22    PCIEB_TX0P           ANALOG_OUT      1.8V                
+       PCIEB TX0LANEP
+  L23    PCIEB_TX0N           ANALOG_OUT      1.8V                
+       PCIEB TX0LANEN
+  L25    PCIEB_REFCLK_P       PASSIVE         1.8V                
+       PCIEB CKLANEP
+  L26    PCIEB_REFCLK_N       PASSIVE         1.8V                
+       PCIEB CKLANEN
+  M17    VSSU_PCIEB           GND             0V                  
+       PCIEB Ground
+  M18    VSSU_PCIEB           GND             0V                  
+       PCIEB Ground
+  M19    AVDD18_PCIEB         POWER_IN        1.8V                
+       PCIEB analog power
+  M22    PCIEB_TX1P           ANALOG_OUT      1.8V                
+       PCIEB TX1LANEP
+  M23    PCIEB_TX1N           ANALOG_OUT      1.8V                
+       PCIEB TX1LANEN
+  M25    PCIEB_RX1P           ANALOG_IN       1.8V                
+       PCIEB RX1LANEP
+  M26    PCIEB_RX1N           ANALOG_IN       1.8V                
+       PCIEB RX1LANEN
+  M5     VSSU_PCIEA           GND             0V                  
+       PCIEA Ground
+  M8     VSSU_PCIEA           GND             0V                  
+       PCIEA Ground
+  N4     PCIEA_TXN            ANALOG_OUT      1.8V                
+       PCIEA TXLANEN
+  N5     PCIEA_TXP            ANALOG_OUT      1.8V                
+       PCIEA TXLANEP
+  N6     AVDD18_PCIEA         POWER_IN        1.8V                
+       PCIEA analog power
+  P1     PCIEA_RXN            ANALOG_IN       1.8V                
+       PCIEA RXLANEN
+  P2     PCIEA_RXP            ANALOG_IN       1.8V                
+       PCIEA RXLANEP
+  P4     PCIEA_R_EXT          ANALOG_OUT      1.8V                
+       PCIEA External calibration resistor
+  R1     PCIEA_REFCLK_N       PASSIVE         1.8V                
+       PCIEA CKLANEN
+  R2     PCIEA_REFCLK_P       PASSIVE         1.8V                
+       PCIEA CKLANEP
+
+USB接口
+-----
+Total pins: 11
+
+  M6     AVDD18_USB           POWER_IN        1.8V                
+       USB2.0 1.8V power
+  M9     AVDD33_USB           POWER_IN        3.3V                
+       USB2.0 3.3V power
+  N1     USB2_DN              PASSIVE         3.3V                
+       USB2.0_2 D- differential data line
+  N2     USB2_DP              PASSIVE         3.3V                
+       USB2.0_2 D+ differential data line
+  N9     AVDD33_USB           POWER_IN        3.3V                
+       USB2.0 3.3V power
+  P6     AVDD18_USB           POWER_IN        1.8V                
+       USB2.0 1.8V power
+  P9     AVDD33_USB           POWER_IN        3.3V                
+       USB2.0 3.3V power
+  R4     USB1_DN              PASSIVE         3.3V                
+       USB2.0_1 D- differential data line
+  R5     USB1_DP              PASSIVE         3.3V                
+       USB2.0_1 D+ differential data line
+  T4     USB0_DN              PASSIVE         3.3V                
+       USB2.0_0 D- differential data line
+  T5     USB0_DP              PASSIVE         3.3V                
+       USB2.0_0 D+ differential data line
+
+音频接口
+----
+Total pins: 8
+
+  N18    AVDD3V3_AUD          POWER_IN        3.3V                
+       3.3V power for earphone driver
+  P17    AUD_GNDSNS           GND             0V                  
+       Headphone sense_Ground
+  P18    AVDD18_AUD           POWER_IN        1.8V                
+       1.8V power for audio
+  P19    AVDD18_AUD           POWER_IN        1.8V                
+       1.8V power for audio
+  R17    AUD_VSSU             GND             0V                  
+       Audio Ground
+  R18    AUD_VDDU09           POWER_IN        0.9V                
+       0.9V power for audio
+  R19    AUD_REFGND           GND             0V                  
+       Audio Reference Ground
+  R21    AUD_AUREF10          NC              1.8V                
+       Audio reference voltage
+
+MIPI DSI接口
+----------
+Total pins: 12
+
+  R6     AVDD18_DSI1          POWER_IN        1.8V                
+       DSI analog power
+  T1     MIPI_DSI1_D3N        ANALOG_OUT      1.2V                
+       DSI DATA3LANEN
+  T2     MIPI_DSI1_D3P        ANALOG_OUT      1.2V                
+       DSI DATA3LANEP
+  T8     AVDD12_DSI1          POWER_IN        1.2V                
+       DSI driver power
+  U1     MIPI_DSI1_D2N        ANALOG_OUT      1.2V                
+       DSI DATA2LANEN
+  U2     MIPI_DSI1_D2P        ANALOG_OUT      1.2V                
+       DSI DATA2LANEP
+  V1     MIPI_DSI1_CLKN       ANALOG_OUT      1.2V                
+       DSI CKLANEN
+  V2     MIPI_DSI1_CLKP       ANALOG_OUT      1.2V                
+       DSI CKLANEP
+  W4     MIPI_DSI1_D1N        ANALOG_OUT      1.2V                
+       DSI DATA1LANEN
+  W5     MIPI_DSI1_D1P        ANALOG_OUT      1.2V                
+       DSI DATA1LANEP
+  Y4     MIPI_DSI1_D0N        ANALOG_OUT      1.2V                
+       DSI DATA0LANEN
+  Y5     MIPI_DSI1_D0P        ANALOG_OUT      1.2V                
+       DSI DATA0LANEP
+
